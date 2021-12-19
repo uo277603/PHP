@@ -1,0 +1,236 @@
+/*001*/
+
+body {
+    background-color: #FFE6A7;
+}
+
+
+/*001*/
+
+h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 2em;
+    background-color: #6F1D1B;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+
+/*001*/
+
+h2 {
+    display: none;
+}
+
+
+/*001*/
+
+label {
+    display: none;
+}
+
+
+/*001*/
+
+footer {
+    text-align: center;
+}
+
+
+/*001*/
+
+form {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 10% 10% auto auto auto;
+    width: 30em;
+    height: 35em;
+    margin: 0 auto;
+    padding: 0.3em;
+    background-color: #D0D0D0;
+}
+
+
+/*011*/
+
+input[type="submit"] {
+    border-style: none;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+    background-color: #E2E2E2;
+    width: 97%;
+    height: 97%;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: #525252;
+}
+
+
+/*011*/
+
+input[name="mc"] {
+    font-size: 0.9em;
+    color: black;
+    background-color: #D0D0D0;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[name="mrc"] {
+    font-size: 0.9em;
+    color: black;
+    background-color: #D0D0D0;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[name="m+"] {
+    font-size: 0.9em;
+    color: black;
+    background-color: #D0D0D0;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[name="m-"] {
+    font-size: 0.9em;
+    color: black;
+    background-color: #D0D0D0;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[name="ms"] {
+    font-size: 0.9em;
+    color: black;
+    background-color: #D0D0D0;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[name="digito"] {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4em;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[value="∓"] {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4em;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[type="text"] {
+    text-align: right;
+    border-style: none;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: black;
+    background-color: #D0D0D0;
+    margin-bottom: 0.3em;
+    grid-column-start: 1;
+    grid-column-end: span 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+
+/*001*/
+
+aside {
+    grid-column-start: 1;
+    grid-column-end: span 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+
+/*012*/
+
+aside>input[type="submit"] {
+    width: 5em;
+    background-color: #D0D0D0;
+}
+
+
+/*011*/
+
+form>section {
+    display: inline;
+    grid-column-start: 1;
+    grid-column-end: span 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: #BEBEBE;
+}
+
+
+/*013*/
+
+form>section>input[value="Trigonometría ↓"] {
+    width: 40%;
+    height: 90%;
+    background-color: #BEBEBE;
+}
+
+
+/*012*/
+
+form>section>section[title="hide"] {
+    display: none;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 25em;
+    height: 5em;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/*012*/
+
+form>section>section[title="show"] {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 25em;
+    height: 5em;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}

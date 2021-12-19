@@ -1,0 +1,94 @@
+/*001*/
+
+body {
+    background-color: #FFE6A7;
+}
+
+
+/*001*/
+
+h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 2em;
+    background-color: #6F1D1B;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    grid-area: header;
+}
+
+
+/*001*/
+
+h2 {
+    text-align: center;
+}
+
+
+/*001*/
+
+footer {
+    text-align: center;
+    grid-area: footer;
+}
+
+
+/*001*/
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #FFE6A7;
+}
+
+
+/*001*/
+
+caption {
+    background-color: #6F1D1B;
+    padding: 1.4em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+/*001*/
+
+th,
+td {
+    padding: 1em;
+}
+
+
+/*001*/
+
+p {
+    padding: 0.5em;
+}
+
+
+/*001*/
+
+label {
+    display: none;
+}
+
+
+/*001*/
+
+input {
+    text-decoration: none;
+    padding: 0.5em;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #99582A;
+    border-radius: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
