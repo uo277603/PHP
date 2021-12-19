@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <title>Modificar datos</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Buscar datos">
+    <meta name="keywords" content="mysql, mysqli, php">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+</head>
+
+<body>
+    <h1>Modificar datos</h1>
+    <main>
+        <form method="post" action="Ejercicio6.php" name="modificarDatos">
+            <fieldset>
+                <legend>Selecciona el dni de la persona a modificar</legend>
+                <label for="dnibuscarmod">DNI: </label><br><input id="dnibuscarmod" type="text" name="dnibuscarmod"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Puede modificar los siguientes campos</legend>
+                <label for="dnimod">DNI: </label><br><input id="dnimod" type="text" name="dnimod"><br>
+                <label for="nombre">Nombre: </label><br><input id="nombre" type="text" name="nombremod"><br>
+                <label for="apellidos">Apellidos: </label><br><input id="apellidos" type="text" name="apellidosmod"><br>
+                <label for="email">Email: </label><br><input id="email" type="text" name="emailmod"><br>
+                <label for="telefono">Telefono: </label><br><input id="telefono" type="text" name="telefonomod"><br>
+                <label for="edad">Edad: </label><br><input id="edad" type="text" name="edadmod"><br>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input id="Hombre" type="radio" name="sexomod" value="Hombre" checked=""><label for="Hombre">Hombre</label>
+                    <input id="Mujer" type="radio" name="sexomod" value="Mujer"><label for="Mujer">Mujer</label>
+                </fieldset>
+                <label for="nivel">Nivel de informática: </label><br><input id="nivel" type="text" name="nivelmod"><br>
+                <label for="tiempo">Tiempo: </label><br><input id="tiempo" type="text" name="tiempomod"><br>
+                <input id="tarea" type="checkbox" name="tareamod" value="Tarea"><label for="tarea">Tarea</label><br>
+                <label for="comentarios">Comentarios: </label><br><input id="comentarios" type="text" name="comentariosmod"><br>
+                <label for="propuestas">Propuestas: </label><br><input id="propuestas" type="text" name="propuestasmod"><br>
+                <label for="valoracion">Valoración: </label><br><input id="valoracion" type="text" name="valoracionmod"><br>
+            </fieldset>
+            <input type="submit" value="Modificar">
+    </form></main>
+
+
+</body></html>

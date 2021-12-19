@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <title>Tu biblioteca</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Biblioteca de juegos">
+    <meta name="keywords" content="php, mysql, myslqi, biblioteca">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tu biblioteca</h1>
+
+    </header>
+    <main>
+        <form method="post" action="Biblioteca.php" name="biblioteca">
+            <fieldset>
+                <legend>Selecciona tu usuario:</legend>
+                <label for="dni">DNI: </label><br><input id="dni" type="text" name="dniUsuario"><br>
+                <input type="submit" value="Entrar">
+            </fieldset>
+        </form>
+        <a href="Ejercicio7.php">Volver al menú principal</a>
+        <p>Tu biblioteca de juegos:</p><ul><li><b>Terraria</b> Plataforma: Todas
+                             Género: Sandbox Desarrollador: Re-Logic Fecha de compra: 18/12/2021</li></ul><form method="post" action="Biblioteca.php">
+                <fieldset>
+                    <legend>Escribe una reseña</legend>
+                    <p>Nombre del juego: <input type="text" name="juegoReseña"></p>
+                    <textarea name="reseña" rows="10" cols="50">Escribe aquí tu reseña</textarea>
+                    <p>Valoración: <input type="text" name="valoracion"></p>
+                    <input type="submit" value="Enviar">                          
+                </fieldset>
+            </form>    </main>
+
+
+</body></html>

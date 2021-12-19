@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <title>Insertar datos</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Insertar datos">
+    <meta name="keywords" content="mysql, mysqli, php">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+</head>
+
+<body>
+    <h1>Insertar datos</h1>
+    <main>
+        <form method="post" action="Ejercicio6.php" name="insertarDatos">
+            <fieldset>
+                <legend>Rellena los siguientes campos</legend>
+                <label for="dni">DNI: </label><br><input id="dni" type="text" name="dni"><br>
+                <label for="nombre">Nombre: </label><br><input id="nombre" type="text" name="nombre"><br>
+                <label for="apellidos">Apellidos: </label><br><input id="apellidos" type="text" name="apellidos"><br>
+                <label for="email">Email: </label><br><input id="email" type="text" name="email"><br>
+                <label for="telefono">Telefono: </label><br><input id="telefono" type="text" name="telefono"><br>
+                <label for="edad">Edad: </label><br><input id="edad" type="text" name="edad"><br>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input id="Hombre" type="radio" name="sexo" value="Hombre" checked=""><label for="Hombre">Hombre</label>
+                    <input id="Mujer" type="radio" name="sexo" value="Mujer"><label for="Mujer">Mujer</label>
+                </fieldset>
+                <label for="nivel">Nivel de informática: </label><br><input id="nivel" type="text" name="nivel"><br>
+                <label for="tiempo">Tiempo: </label><br><input id="tiempo" type="text" name="tiempo"><br>
+                <input id="tarea" type="checkbox" name="tarea" value="Tarea"><label for="tarea">Tarea</label><br>
+                <label for="comentarios">Comentarios: </label><br><input id="comentarios" type="text" name="comentarios"><br>
+                <label for="propuestas">Propuestas: </label><br><input id="propuestas" type="text" name="propuestas"><br>
+                <label for="valoracion">Valoración: </label><br><input id="valoracion" type="text" name="valoracion"><br>
+                <input type="submit" value="Insertar">
+            </fieldset>
+    </form></main>
+
+
+</body></html>
