@@ -91,7 +91,7 @@ section a {
 
 section a:hover {
     background-color: #0C667C;
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
